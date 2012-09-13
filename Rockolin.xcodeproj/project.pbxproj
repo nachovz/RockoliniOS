@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6800D7C11601815100F5DD6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6800D7C01601815100F5DD6A /* UIKit.framework */; };
+		6800D7C31601815100F5DD6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6800D7C21601815100F5DD6A /* Foundation.framework */; };
+		6800D7C51601815100F5DD6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6800D7C41601815100F5DD6A /* CoreGraphics.framework */; };
+		6800D7CB1601815200F5DD6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6800D7C91601815200F5DD6A /* InfoPlist.strings */; };
+		6800D7CD1601815200F5DD6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800D7CC1601815200F5DD6A /* main.m */; };
+		6800D7D11601815200F5DD6A /* PartyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800D7D01601815200F5DD6A /* PartyAppDelegate.m */; };
+		6800D7D41601815200F5DD6A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6800D7D21601815200F5DD6A /* MainStoryboard_iPhone.storyboard */; };
+		6800D7D71601815200F5DD6A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6800D7D51601815200F5DD6A /* MainStoryboard_iPad.storyboard */; };
+		6800D7DA1601815200F5DD6A /* PartyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6800D7D91601815200F5DD6A /* PartyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6800D7BC1601815100F5DD6A /* Rockolin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rockolin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6800D7C01601815100F5DD6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6800D7C21601815100F5DD6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6800D7C41601815100F5DD6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6800D7C81601815200F5DD6A /* Rockolin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rockolin-Info.plist"; sourceTree = "<group>"; };
+		6800D7CA1601815200F5DD6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6800D7CC1601815200F5DD6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6800D7CE1601815200F5DD6A /* Rockolin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rockolin-Prefix.pch"; sourceTree = "<group>"; };
+		6800D7CF1601815200F5DD6A /* PartyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartyAppDelegate.h; sourceTree = "<group>"; };
+		6800D7D01601815200F5DD6A /* PartyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyAppDelegate.m; sourceTree = "<group>"; };
+		6800D7D31601815200F5DD6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6800D7D61601815200F5DD6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6800D7D81601815200F5DD6A /* PartyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartyViewController.h; sourceTree = "<group>"; };
+		6800D7D91601815200F5DD6A /* PartyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6800D7B91601815100F5DD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6800D7C11601815100F5DD6A /* UIKit.framework in Frameworks */,
+				6800D7C31601815100F5DD6A /* Foundation.framework in Frameworks */,
+				6800D7C51601815100F5DD6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6800D7B11601815100F5DD6A = {
+			isa = PBXGroup;
+			children = (
+				6800D7C61601815100F5DD6A /* Rockolin */,
+				6800D7BF1601815100F5DD6A /* Frameworks */,
+				6800D7BD1601815100F5DD6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6800D7BD1601815100F5DD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6800D7BC1601815100F5DD6A /* Rockolin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6800D7BF1601815100F5DD6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6800D7C01601815100F5DD6A /* UIKit.framework */,
+				6800D7C21601815100F5DD6A /* Foundation.framework */,
+				6800D7C41601815100F5DD6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6800D7C61601815100F5DD6A /* Rockolin */ = {
+			isa = PBXGroup;
+			children = (
+				6800D7CF1601815200F5DD6A /* PartyAppDelegate.h */,
+				6800D7D01601815200F5DD6A /* PartyAppDelegate.m */,
+				6800D7D21601815200F5DD6A /* MainStoryboard_iPhone.storyboard */,
+				6800D7D51601815200F5DD6A /* MainStoryboard_iPad.storyboard */,
+				6800D7D81601815200F5DD6A /* PartyViewController.h */,
+				6800D7D91601815200F5DD6A /* PartyViewController.m */,
+				6800D7C71601815100F5DD6A /* Supporting Files */,
+			);
+			path = Rockolin;
+			sourceTree = "<group>";
+		};
+		6800D7C71601815100F5DD6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6800D7C81601815200F5DD6A /* Rockolin-Info.plist */,
+				6800D7C91601815200F5DD6A /* InfoPlist.strings */,
+				6800D7CC1601815200F5DD6A /* main.m */,
+				6800D7CE1601815200F5DD6A /* Rockolin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6800D7BB1601815100F5DD6A /* Rockolin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6800D7DD1601815200F5DD6A /* Build configuration list for PBXNativeTarget "Rockolin" */;
+			buildPhases = (
+				6800D7B81601815100F5DD6A /* Sources */,
+				6800D7B91601815100F5DD6A /* Frameworks */,
+				6800D7BA1601815100F5DD6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rockolin;
+			productName = Rockolin;
+			productReference = 6800D7BC1601815100F5DD6A /* Rockolin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6800D7B31601815100F5DD6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Party;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Rockolin;
+			};
+			buildConfigurationList = 6800D7B61601815100F5DD6A /* Build configuration list for PBXProject "Rockolin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6800D7B11601815100F5DD6A;
+			productRefGroup = 6800D7BD1601815100F5DD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6800D7BB1601815100F5DD6A /* Rockolin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6800D7BA1601815100F5DD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6800D7CB1601815200F5DD6A /* InfoPlist.strings in Resources */,
+				6800D7D41601815200F5DD6A /* MainStoryboard_iPhone.storyboard in Resources */,
+				6800D7D71601815200F5DD6A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6800D7B81601815100F5DD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6800D7CD1601815200F5DD6A /* main.m in Sources */,
+				6800D7D11601815200F5DD6A /* PartyAppDelegate.m in Sources */,
+				6800D7DA1601815200F5DD6A /* PartyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6800D7C91601815200F5DD6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6800D7CA1601815200F5DD6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6800D7D21601815200F5DD6A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6800D7D31601815200F5DD6A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6800D7D51601815200F5DD6A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6800D7D61601815200F5DD6A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6800D7DB1601815200F5DD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6800D7DC1601815200F5DD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6800D7DE1601815200F5DD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rockolin/Rockolin-Prefix.pch";
+				INFOPLIST_FILE = "Rockolin/Rockolin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6800D7DF1601815200F5DD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rockolin/Rockolin-Prefix.pch";
+				INFOPLIST_FILE = "Rockolin/Rockolin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6800D7B61601815100F5DD6A /* Build configuration list for PBXProject "Rockolin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6800D7DB1601815200F5DD6A /* Debug */,
+				6800D7DC1601815200F5DD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6800D7DD1601815200F5DD6A /* Build configuration list for PBXNativeTarget "Rockolin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6800D7DE1601815200F5DD6A /* Debug */,
+				6800D7DF1601815200F5DD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6800D7B31601815100F5DD6A /* Project object */;
+}
