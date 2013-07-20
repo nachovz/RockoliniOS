@@ -10,6 +10,7 @@ Rockolin/.DS_Store
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
+Rockolin.xcodeproj/project.xcworkspace/xcuserdata/
 profile
 *.moved-aside
 DerivedData
