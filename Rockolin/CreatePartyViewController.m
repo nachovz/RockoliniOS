@@ -83,14 +83,18 @@
         [self.partyName resignFirstResponder];
         [self.partyLocation resignFirstResponder];
         
-        PFUser *currentUser = [PFUser currentUser];
-        
-        PFObject *newParty = [PFObject objectWithClassName:@"party"];
-        [newParty setObject:currentUser forKey:@"user"];
+        PFObject *newParty = [PFObject objectWithClassName:@"Party"];
+        [newParty setObject:[PFUser currentUser] forKey:@"user"];
         [newParty setObject:self.partyName.text forKey:@"name"];
-        [newParty setObject:self.partyLocation.text forKey:@"address"];
+        //[newParty setObject:self.partyLocation.text forKey:@"address"];
         [newParty save];
-    
+        
+        if ([self.songList count] > 0) {
+            for (int i=0; i==4; i++) {
+                
+            }
+        }
+        
         //NSString *code = newParty.objectId;
     
         /*Barcode *barcode = [[Barcode alloc] init];
