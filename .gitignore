@@ -1,5 +1,5 @@
 # Xcode
-.DS_Store
+Rockolin/.DS_Store
 */build/*
 *.pbxuser
 !default.pbxuser
