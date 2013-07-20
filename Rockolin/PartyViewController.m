@@ -26,6 +26,17 @@
     [self syncLoginLogoutInterface];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //LogIn
+    if (![PFUser currentUser]) {
+        PFLogInViewController *logInController = [[PFLogInViewController alloc] init];
+        logInController.delegate = self;
+        logInController.fields = PFLogInFieldsUsernameAndPassword
+        | PFLogInFieldsLogInButton
+        | PFLogInFieldsSignUpButton
+        | PFLogInFieldsPasswordForgotten;
+        [self presentModalViewController:logInController animated:YES];
+    }
 }
 
 - (void)viewDidUnload
