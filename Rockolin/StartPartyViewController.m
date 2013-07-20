@@ -7,7 +7,6 @@
 //
 
 #import "StartPartyViewController.h"
-#import "Barcode.h"
 
 @interface StartPartyViewController ()
 
@@ -52,10 +51,10 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [self.partyTitle setText:[self.party objectForKey:@"name"]];
-    Barcode *barcode = [[Barcode alloc] init];
+    /*Barcode *barcode = [[Barcode alloc] init];
     [barcode setupQRCode:self.party.objectId];
     [self.qrView setImage:barcode.qRBarcode];
-    [super viewWillAppear:YES];
+    [super viewWillAppear:YES];*/
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

@@ -8,8 +8,8 @@
 
 #import "CreatePartyViewController.h"
 #import "Parse/Parse.h"
-#import "Barcode.h"
 #import "StartPartyViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface CreatePartyViewController ()
 
@@ -22,6 +22,7 @@
 @synthesize partyLocation = _partyLocation;
 @synthesize qrView = _qrView;
 @synthesize createdParty = _createdParty;
+@synthesize songTable = _songTable;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,6 +37,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    //Loading Songs
+    MPMediaQuery *everything = [[MPMediaQuery alloc] init];
+    
+    NSLog(@"Logging items from a generic query...");
+    NSArray *itemsFromGenericQuery = [everything items];
+    for (MPMediaItem *song in itemsFromGenericQuery) {
+        NSString *songTitle = [song valueForProperty: MPMediaItemPropertyTitle];
+        NSLog (@"%@", songTitle);
+    }
 }
 
 - (void)viewDidUnload
@@ -44,6 +55,7 @@
     [self setPartyLocation:nil];
     [self setQrView:nil];
     [self setQrView:nil];
+    [self setSongTable:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -70,12 +82,12 @@
         [newParty setObject:self.partyLocation.text forKey:@"address"];
         [newParty save];
     
-        NSString *code = newParty.objectId;
+        //NSString *code = newParty.objectId;
     
-        Barcode *barcode = [[Barcode alloc] init];
+        /*Barcode *barcode = [[Barcode alloc] init];
     
         [barcode setupQRCode:code];
-        [self.qrView setImage:barcode.qRBarcode];
+        [self.qrView setImage:barcode.qRBarcode];*/
     
         [self setCreatedParty:newParty];
         
@@ -88,4 +100,11 @@
 {
     [segue.destinationViewController setParty:self.createdParty];
 }
+
+
+//TABLE METHODS
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+}
+
 @end

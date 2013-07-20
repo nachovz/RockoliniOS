@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11E2617" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="80b-oX-T92">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="80b-oX-T92">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Party View Controller-->
         <scene sceneID="5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="PartyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
@@ -100,13 +99,13 @@
                         <outlet property="userName" destination="rQH-9G-0qJ" id="xXO-rB-3eH"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="389" y="63"/>
         </scene>
         <!--List Party View Controller-->
         <scene sceneID="cUw-24-joL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pCg-Jr-3jj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qFA-7Y-Di3" customClass="ListPartyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cpg-GD-LoQ">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
@@ -160,13 +159,13 @@
                         <segue destination="fgL-KF-kFj" kind="push" id="arq-PA-wcC"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pCg-Jr-3jj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="836" y="63"/>
         </scene>
         <!--Start Party View Controller-->
         <scene sceneID="v5T-cW-znL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MTt-2h-JoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="fgL-KF-kFj" customClass="StartPartyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y9H-hS-TZ2">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
@@ -225,13 +224,13 @@
                         <outlet property="qrView" destination="8mp-Mm-EzN" id="ycb-Yf-YAc"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTt-2h-JoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1348" y="63"/>
         </scene>
         <!--Create Party View Controller-->
         <scene sceneID="rrb-Qy-ggI">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B2f-ah-ALI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="10L-zM-ndm" customClass="CreatePartyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SFk-zL-HxN">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
@@ -286,9 +285,41 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="mfx-HD-RaV">
-                                <rect key="frame" x="20" y="191" width="280" height="249"/>
+                                <rect key="frame" x="20" y="139" width="57" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="p0t-mD-6HH">
+                                <rect key="frame" x="0.0" y="210" width="320" height="250"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SongCell" textLabel="dLH-cT-z65" detailTextLabel="7U5-Fb-cLG" style="IBUITableViewCellStyleValue1" id="Qkp-RE-Yze">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dLH-cT-z65">
+                                                    <rect key="frame" x="10" y="11" width="35" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7U5-Fb-cLG">
+                                                    <rect key="frame" x="266" y="11" width="44" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -297,16 +328,17 @@
                         <outlet property="partyLocation" destination="Dpr-rj-5Vi" id="Bbd-dN-PMw"/>
                         <outlet property="partyName" destination="Gz3-bH-MU2" id="PeN-Rd-Uuc"/>
                         <outlet property="qrView" destination="mfx-HD-RaV" id="TLN-KK-tZ0"/>
+                        <outlet property="songTable" destination="p0t-mD-6HH" id="tIv-d2-DBh"/>
                         <segue destination="fgL-KF-kFj" kind="push" identifier="Lets Party" id="XJ2-w3-cGN"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B2f-ah-ALI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="836" y="-522"/>
         </scene>
         <!--Join Party View Controller-->
         <scene sceneID="AxA-F3-XYM">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bW4-0r-rwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="hZr-0x-vBQ" customClass="JoinPartyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SUk-KO-iHs">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
@@ -318,13 +350,13 @@
                         <segue destination="fgL-KF-kFj" kind="push" id="fnl-Ub-eKf"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bW4-0r-rwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="836" y="641"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="blS-YM-7SB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="l88-T8-JgY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController navigationBarHidden="YES" id="80b-oX-T92" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="k10-SP-Phm">
@@ -340,6 +372,7 @@
                         <segue destination="2" kind="relationship" relationship="rootViewController" id="zOd-oJ-ESj"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l88-T8-JgY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-137" y="63"/>
         </scene>
@@ -352,6 +385,7 @@
                 <relationship kind="outlet" name="partyLocation" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="partyName" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="qrView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="songTable" candidateClass="UITableView"/>
             </relationships>
         </class>
         <class className="JoinPartyViewController" superclassName="UIViewController">
@@ -359,6 +393,9 @@
         </class>
         <class className="ListPartyViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ListPartyViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="partiesList" candidateClass="UITableView"/>
+            </relationships>
         </class>
         <class className="PartyViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PartyViewController.h"/>
@@ -385,6 +422,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="arq-PA-wcC"/>
+        <segue reference="XJ2-w3-cGN"/>
     </inferredMetricsTieBreakers>
 </document>
