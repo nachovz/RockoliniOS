@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		661577E0179A49AD00913BD8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661577DF179A49AD00913BD8 /* Parse.framework */; };
 		661577E2179A4A4A00913BD8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661577E1179A4A4A00913BD8 /* CoreLocation.framework */; };
+		661577E4179A740B00913BD8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661577E3179A740B00913BD8 /* MediaPlayer.framework */; };
 		6800D7C11601815100F5DD6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6800D7C01601815100F5DD6A /* UIKit.framework */; };
 		6800D7C31601815100F5DD6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6800D7C21601815100F5DD6A /* Foundation.framework */; };
 		6800D7C51601815100F5DD6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6800D7C41601815100F5DD6A /* CoreGraphics.framework */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		661577DF179A49AD00913BD8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		661577E1179A4A4A00913BD8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		661577E3179A740B00913BD8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		6800D7BC1601815100F5DD6A /* Rockolin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rockolin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6800D7C01601815100F5DD6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6800D7C21601815100F5DD6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661577E4179A740B00913BD8 /* MediaPlayer.framework in Frameworks */,
 				661577E2179A4A4A00913BD8 /* CoreLocation.framework in Frameworks */,
 				6800D7F516019DD900F5DD6A /* StoreKit.framework in Frameworks */,
 				6800D7F316019DD000F5DD6A /* Security.framework in Frameworks */,
@@ -158,6 +161,7 @@
 		6800D7BF1601815100F5DD6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				661577E3179A740B00913BD8 /* MediaPlayer.framework */,
 				661577E1179A4A4A00913BD8 /* CoreLocation.framework */,
 				6800D80F1601C5B400F5DD6A /* libz.dylib */,
 				661577DF179A49AD00913BD8 /* Parse.framework */,
