@@ -11,7 +11,6 @@
 @interface CreatePartyViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITextField *partyName;
 @property (weak, nonatomic) IBOutlet UITextField *partyLocation;
-@property (retain, nonatomic) IBOutlet UIImageView *qrView;
 @property (retain, nonatomic) IBOutlet UITableView *songTable;
 
 - (IBAction)createParty:(UIButton *)sender;
